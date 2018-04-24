@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cool_down">الراحة</string>
+    <string name="recovery">التعافي</string>
+    <string name="warm_up">الإحماء</string>
+</resources>

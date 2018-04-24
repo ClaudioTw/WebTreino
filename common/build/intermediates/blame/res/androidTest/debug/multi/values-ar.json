@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ar/values-ar.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 44,
+                    "endOffset": 95
+                },
+                "from": {
+                    "file": "/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/build/intermediates/bundles/debug/res/values-ar/values-ar.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 44,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 44,
+                    "endOffset": 140
+                },
+                "from": {
+                    "file": "/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/build/intermediates/bundles/debug/res/values-ar/values-ar.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 44,
+                        "endOffset": 140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 145,
+                    "endColumn": 43,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/build/intermediates/bundles/debug/res/values-ar/values-ar.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 145,
+                        "endColumn": 43,
+                        "endOffset": 184
+                    }
+                }
+            }
+        ]
+    }
+]

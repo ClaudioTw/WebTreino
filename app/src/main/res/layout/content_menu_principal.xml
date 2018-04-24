@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.claudio.webtreino.MenuPrincipal"
+    tools:showIn="@layout/app_bar_menu_principal">
+
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    tools:context="geen.box.MainActivity"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@drawable/acad">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="250dp"
+                        android:layout_alignParentTop="true"
+                        android:background="#f200d4ff"
+                        >
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="150dp"
+                            android:layout_height="30dp"
+                            android:layout_alignBottom="@+id/imgtrofeu"
+                            android:layout_alignParentStart="true"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="17dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/webtreino" />
+
+
+
+
+
+                        <ImageView
+                            android:id="@+id/imgtrofeu"
+                            android:layout_width="30dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_gravity="center"
+                            android:layout_marginEnd="64dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/trofeu" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/imageView"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center"
+                            android:layout_marginEnd="12dp"
+                            android:text="TOP 5"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+
+
+                    </RelativeLayout>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/facemenu"
+                    android:layout_width="150dp"
+                    android:layout_height="115dp"
+                    android:layout_marginStart="100dp"
+
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/facemenu" />
+
+                <TextView
+                    android:id="@+id/textcurs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:layout_marginTop="145dp"
+                    android:layout_marginLeft="57dp"
+                    android:text="Modalidade:Musculação"
+                    android:background="#595858"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_marginTop="230dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:background="#dcdcd7"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginRight="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/profile"
+                                    android:layout_width="100dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/headerimg" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/profile"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="MEU TREINO"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:id="@+id/button1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:elevation="5dp" />
+
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            android:gravity="center">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/education"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/education" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/education"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="AVALIAÇÕES"
+                                    android:textAlignment="center"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+
+                                    android:background="@android:color/transparent"
+                                    android:id="@+id/button2"/>
+
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="horizontal">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginRight="5dp">
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/health"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/health" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/health"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="NUTRIÇÃO"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:id="@+id/button3"/>
+
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+
+
+                        <android.support.v7.widget.CardView
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginLeft="5dp">
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/goal"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/goal" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/goal"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="FISIOTERAPIA"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:id="@+id/button4"/>
+
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+
+
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/btnIniciar"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:onClick="onClick"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginHorizontal="60dp"
+                        android:layout_marginLeft="70dp"
+                        android:background="#4fb153"
+                        android:breakStrategy="high_quality"
+                        android:elevation="50dp"
+                        android:text="Iniciar"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
+

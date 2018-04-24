@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1009987860227",
+    "firebase_url": "https://webtreino-f080d.firebaseio.com",
+    "project_id": "webtreino-f080d",
+    "storage_bucket": "webtreino-f080d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009987860227:android:a0c5703770d2b362",
+        "android_client_info": {
+          "package_name": "com.example.claudio.webtreino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009987860227-k22pjj36p4ad4boqj2g25ckueavpotgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.claudio.webtreino",
+            "certificate_hash": "5695d48b9cc7520cc73cb61a40b9de96bbce4909"
+          }
+        },
+        {
+          "client_id": "1009987860227-ql7fakh743id86prn8guk9tntrfa6vu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe_ETbMY5FQsMv2Tr8BmDs-g3i3c0nN5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009987860227-ql7fakh743id86prn8guk9tntrfa6vu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

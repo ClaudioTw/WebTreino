@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Maximum_heart_rate_MHR">Maximale hartslag (MHS)</string>
+    <string name="app_name">RunnerUp</string>
+    <string name="cool_down">afkoeling</string>
+    <string name="metrics_distance_km">km</string>
+    <string name="metrics_distance_m">m</string>
+    <string name="metrics_distance_mi">mi</string>
+    <string name="metrics_elapsed_h">u</string>
+    <string name="metrics_elapsed_m">m</string>
+    <string name="metrics_elapsed_min">min</string>
+    <string name="metrics_elapsed_s">s</string>
+    <string name="recovery">herstel</string>
+    <string name="warm_up">opwarming</string>
+</resources>

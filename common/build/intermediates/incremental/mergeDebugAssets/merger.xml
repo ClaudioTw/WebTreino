@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/src/main/assets"/><source path="/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/src/debug/assets"/></dataSet></merger>

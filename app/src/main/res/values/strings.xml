@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">WebTreino</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">AVANÇAR</string>
+    <string name="skip">VOLTAR</string>
+    <string name="start">ACESSAR</string>
+
+    <string name="slide_1_title">SEU TREINO PERSONALIZADO</string>
+    <string name="slide_1_desc">Execute os treinos de qualquer lugar e obtenha dados valiosos sobre eles!</string>
+
+    <string name="slide_2_title">MULTIPLATAFORMA</string>
+    <string name="slide_2_desc">Acesse de diversas plataformas e tenha sempre seus dados em mãos.</string>
+
+    <string name="slide_3_title">MULTIFUNCIONALIDADES</string>
+    <string name="slide_3_desc">Academias, Clubes, Condomínios, Personal Trainners, Acompanhamento de Aluno, QRM Vendas, Gestão financeira e Administração.</string>
+
+    <string name="slide_4_title">BENEFÍCIOS</string>
+    <string name="slide_4_desc">Facilita e organiza os dados do aluno, integração com avaliação muscular, aspecto muscular, aspecto fisioilógicos e biológicos da musculação, suplementos e alimentação adequadas ao treinamento.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_menuprincipal">Menuprincipal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">SAIR DA CONTA</string>
+    <string name="action_settings2">contrato</string>
+
+
+    <string name="title_activity_menu_principal">MenuPrincipal</string>
+    <string name="aluno_name">Aluno: 690 - Robson Roberto - 18/03/1980 </string>
+    <string name="aluno_dados">Sessões:30 Realizadas:09 </string>
+    <string name="name_dados1">Peso:100.2</string>
+    <string name="name_avaliado">Avaliado:24/07/2018</string>
+
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+
+    <string-array name="company_list">
+        <item>Academias</item>
+        <item>Advogados</item>
+        <item>Andaimes</item>
+        <item>Aquecedor_Solar</item>
+        <item>Ar_Carro</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="list">botão</string>
+
+</resources>

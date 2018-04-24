@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_av_pause.png",
+        "source": "/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_av_pause.png"
+    },
+    {
+        "merged": "/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_av_newlap.png",
+        "source": "/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_av_newlap.png"
+    },
+    {
+        "merged": "/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_av_stop.png",
+        "source": "/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_av_stop.png"
+    },
+    {
+        "merged": "/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_av_play_arrow.png",
+        "source": "/home/claudio/Área de Trabalho/modulo/Novo(a)/runnerup-master/common/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_av_play_arrow.png"
+    }
+]

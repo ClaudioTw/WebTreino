@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.claudio.webtreino.Activity.Cadastro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="78dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/webtreino" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text=" CADASTRO:"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Preencha os campos abaixo para se tornar um webtrainer:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"/>
+
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="#e6e4e4"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/edtCadNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome"
+                android:inputType="textCapWords"
+                android:textColor="#000" />
+
+
+            <EditText
+                android:id="@+id/edtCadSobrenome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Sobrenome"
+                android:inputType="textCapWords"
+
+                android:textColor="#000" />
+
+
+            <EditText
+                android:id="@+id/edtCadAniversario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Aniversario"
+                android:inputType="date"
+
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/edtCadEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/edtCadSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Senha"
+                android:inputType="textPassword"
+
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/edtCadConfirmarSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirma Senha"
+                android:inputType="textPassword"
+
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"/>
+
+
+        <RadioGroup
+            android:id="@+id/rgSexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textColor="#1163fc">
+
+            <RadioButton
+                android:id="@+id/rbFeminino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Feminino"
+
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbMasculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Masculino"
+
+                android:textColor="#000" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnGravar"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@color/colorPrimary"
+            android:text="Enviar"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff"
+
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
